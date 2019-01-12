@@ -24,6 +24,7 @@ function printQuote(){
     message += '<p class="source">' + RandomQ.source + '</p>';
   document.getElementById("quote-box").innerHTML = message;
 };
+
 //Auto Refresh
 setInterval(printQuote, 10000)
 
